@@ -3,18 +3,18 @@
  * UPI: whsu014
  * 6/4/2015
  * 
- * This programme reads the data matrix from 
+ * This program reads the data matrix from 
  * https://www.cs.auckland.ac.nz/courses/compsci369s1c/resources/for-assig1/snps.txt
- * which is a 100 (trials) x 2734 (measures) matrix, the programme centres the matrix,
+ * which is a 100 (trials) x 2734 (measures) matrix, the program centres the matrix,
  * finds the principal components and prints the first 5 entries of the first 5 principal 
- * component vectors as well as the 100 singular values from the analysis.  The programme 
+ * component vectors as well as the 100 singular values from the analysis.  The program 
  * then projects the data vectors along the first 2 principal components, generating a new 
  * 100 x 2 matrix L.  Matrix L is then written onto a file called locations.txt.
  *  
- * The programme finds and print the row number of individuals belonging to the largest 
+ * The program finds and print the row number of individuals belonging to the largest 
  * subpopulation identified using the first 2 principal component.
  * 
- * Instructions for using this programme:
+ * Instructions for using this program:
  * Make sure the location (line 95) of where to write the location.txt file is adjusted
  * to suit your system.  
  * 
