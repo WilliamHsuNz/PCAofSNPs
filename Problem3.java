@@ -18,6 +18,8 @@
  * Make sure the location (line 95) of where to write the location.txt file is adjusted
  * to suit your system.  
  * 
+ * The program imports the Jama package.  Ensure the Jama package is downloaded and a
+ * path is built from the program's progject to the package.  
  */
 
 
